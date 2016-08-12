@@ -1,0 +1,2 @@
+iptables setup:
+	iptables -A INPUT -p tcp --sport 5555 -j DROP
